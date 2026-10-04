@@ -1,0 +1,10 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"sophisticatedbackpacks:backpack","components":"{\"sophisticatedcore:number_of_inventory_slots\":27,\"sophisticatedcore:number_of_upgrade_slots\":1}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:potion","components":{"minecraft:potion_contents":{"potion":"minecraft:awkward"},"create:potion_fluid_bottle_type":"regular"}},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:potion","components":{"minecraft:potion_contents":{"potion":"minecraft:night_vision"},"create:potion_fluid_bottle_type":"regular"}},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:potion","components":"{\"minecraft:potion_contents\":{potion:\"minecraft:night_vision\"}}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"aquaculture:fish_bones"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"aquaculture:minnow"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:ender_pearl"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

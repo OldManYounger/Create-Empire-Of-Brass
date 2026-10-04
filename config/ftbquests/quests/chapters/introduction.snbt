@@ -1,0 +1,194 @@
+{
+	autofocus_id: "7C45F4B8BB34E931"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "introduction"
+	group: "52873A3F4F2C2F88"
+	icon: {
+		id: "create:brass_hand"
+	}
+	id: "35D794C1E516A244"
+	images: [{
+		click_action: "none:"
+		height: 4.0d
+		id: "36EECA659507C964"
+		image: "kubejs:textures/quests/create_empire_of_brass_title.png"
+		rotation: 0.0d
+		width: 16.0d
+		x: 0.0d
+		y: -3.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "create:brass_hand"
+			}
+			id: "0E54675B443B821A"
+			rewards: [{
+				id: "45AB7BFBA3AB53AA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "14F35C00C7325528"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0E54675B443B821A"]
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:item/command_block_minecart"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5FD39AF3B3BF9EF9"
+			rewards: [{
+				id: "6B6568F73B0C77AC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0B97ADFDB9D95C25"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0E54675B443B821A"]
+			icon: {
+				id: "create_things_and_misc:magnifying_glass"
+			}
+			icon_scale: 0.95d
+			id: "4DD4442AF8CD1863"
+			rewards: [{
+				id: "5C6A17AAD42E7CC9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "42ED3FF4E1F3309A"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0E54675B443B821A"]
+			icon: {
+				id: "minecraft:map"
+			}
+			id: "2B39CE2C5681EB66"
+			rewards: [{
+				id: "17383636F325CC18"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1E0ADAF4753A39B5"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0E54675B443B821A"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/sort_az"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 0.8d
+			id: "6D79F300DA527CBF"
+			rewards: [{
+				id: "2AEABCA5EDB31172"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "05B9BF637DB2B232"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0E54675B443B821A"]
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "489786B315A615BC"
+			rewards: [{
+				id: "298EE5F1C46D6063"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7F89CA5FA1974B6B"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0E54675B443B821A"]
+			icon: {
+				id: "supplementaries:key"
+			}
+			id: "6ADAC8D1A8E1FBC6"
+			rewards: [{
+				id: "37F8F2BCD833F7B1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1C3D0994DC890DBC"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0E54675B443B821A"]
+			icon: {
+				id: "mcwholidays:small_gravestone"
+			}
+			id: "1903C95BED13B444"
+			rewards: [{
+				id: "7E1FA35012D597C1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1007D6D25BD66429"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0E54675B443B821A"]
+			icon: {
+				id: "minecraft:netherite_pickaxe"
+			}
+			id: "4E94BE251BFF4348"
+			rewards: [{
+				id: "39FB6C2771BD2077"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "058322227D7B6836"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+	]
+}

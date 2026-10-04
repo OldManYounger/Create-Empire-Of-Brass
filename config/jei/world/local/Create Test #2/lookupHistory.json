@@ -1,0 +1,16 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"ae2:certus_quartz_crystal"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:crushed_raw_iron"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:crushed_raw_gold"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"apotheosis:gem","components":"{\"apotheosis:gem\":\"apotheosis:overworld/royalty\",\"apotheosis:purity\":\"flawed\"}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"apotheosis:gem","components":"{\"apotheosis:gem\":\"apotheosis:overworld/royalty\",\"apotheosis:purity\":\"normal\"}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"apotheosis:gem","components":"{\"apotheosis:gem\":\"apotheosis:overworld/royalty\",\"apotheosis:purity\":\"flawless\"}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"apotheosis:gem","components":"{\"apotheosis:gem\":\"apotheosis:overworld/royalty\",\"apotheosis:purity\":\"perfect\"}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:crushing_wheel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:encased_fan","components":"{\"minecraft:custom_name\":\u0027{\"italic\":false,\"translate\":\"create.recipe.fan_washing.fan\"}\u0027}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:clay_ball"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:encased_fan","components":"{\"minecraft:custom_name\":\u0027{\"fallback\":\"Fan behind Seething Heat\",\"italic\":false,\"translate\":\"dndesires.recipe.fan_seething.fan\"}\u0027}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:ender_eye"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create_connected:fan_splashing_catalyst"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

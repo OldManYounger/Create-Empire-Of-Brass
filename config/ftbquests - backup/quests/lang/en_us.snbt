@@ -1,0 +1,83 @@
+{
+	chapter.35D794C1E516A244.title: "Introduction"
+	chapter_group.52873A3F4F2C2F88.title: "Create: Gears of Progress"
+	quest.0E54675B443B821A.quest_desc: [
+		"Welcome to &aCreate: Empire of Brass&r. This, as you might expect, is a Create-focused modpack. It has many of the most popular add-ons, in addition to a host of other content and QoL mods."
+		""
+		"A smattering of config changes and KubeJS tweaks have smoothed out the rough edges of the pack, and you can look forward to (in the future) robust endgame content and crafting chains to push your factories to the limit!"
+	]
+	quest.0E54675B443B821A.quest_subtitle: "\"Toil, toil, toil...\""
+	quest.0E54675B443B821A.title: "Welcome to C:EOB!"
+	quest.1903C95BED13B444.quest_desc: [
+		"As with most reputable modpacks, I've included a basic gravestone mod. It does as you'd expect; when you die, your items will be stored in a persistent grave instead of scattering on the floor (or in lava)."
+		""
+		"Simply return to your grave and break it, and your items will be returned. Generally they will be placed in the same slots they were in prior to dying. I've even included a Curios compat mod for it."
+	]
+	quest.2B39CE2C5681EB66.quest_desc: [
+		"You will notice that JourneyMap and Xaero's are not included in this pack. This was a conscious decision as FTB already adds a reasonably good map on it's own, and my goal was to optimize performance as much as feasible. Of course you are free to add either of them yourself if you so choose; it will not break anything."
+		""
+		"FTB also allows you to claim and load chunks. To do so, find the &eFTB Chunks: Map&r icon in the top left of your inventory. From there, find the &eClaim Chunks&r icon in the top left of that menu."
+		""
+		"There you will be able to left-click chunks to claim them, and shift left-click them to force load. In order for chunks to be loaded while players are offline, you will have to change the config settings."
+	]
+	quest.2B39CE2C5681EB66.quest_subtitle: "\"Home sweet home.\""
+	quest.489786B315A615BC.quest_desc: [
+		"&eLootr&r allows instancing of all loot chests, barrels, jars, etc. per player. No longer do you have to worry about other players getting all of the good loot in the first hours of a new server."
+		""
+		"Hold shift to break a &eLootr&r container if necessary."
+	]
+	quest.489786B315A615BC.quest_subtitle: "\"To each their own.\""
+	quest.4DD4442AF8CD1863.quest_desc: [
+		"More Overlays provides a variety of helpful UI overlays; see the options below:"
+		""
+		"&aLight Overlay&r: Press F7 to bring up an overlay which indicates the light level of a given surface."
+		""
+		"&aChunk Overlay&r: Press F9 to bring up an overlay which indicates chunk borders. It has three modes: one shows chunk corners and middle, the second shows a green grid pattern on chunk borders, and the third outlines regions."
+		""
+		"&aJEI Integration&r: Double-click the search bar in JEI to highlight items that correspond with the search query in JEI's text box."
+	]
+	quest.4DD4442AF8CD1863.quest_subtitle: "\"The hidden world...\""
+	quest.4E94BE251BFF4348.quest_desc: [
+		"FTB Ultimine is in the pack of course. Use it to mine ores, trees, your friend's base... whatever suits your fancy. Be careful of using it on block entities however; things could get crashy."
+		""
+		"Use the command below to access the server configs for the mod:"
+		""
+		"&e/ftbultimine serverconfig&r"
+	]
+	quest.4E94BE251BFF4348.quest_subtitle: "\"Vanilla players could never...\""
+	quest.5FD39AF3B3BF9EF9.quest_desc: [
+		"Below you will find some useful commands to ease your experience. It is of course up to you (or the server owner) whether or not to use them:"
+		""
+		"&e/sethome&r - This will set a home location you can warp to. If enabled in configs, you are able to set multiple homes by adding a name."
+		""
+		"&e/home&r - This will allow you to warp to your home location. Similar to &e/sethome&r, you can specify a home to warp to provided such functinality is enabled in the configs."
+		""
+		"&e/back&r - This will allow you to warp to your death point, or previous location after a teleport. By default it has a cooldown, but this can be changed in the configs as well."
+	]
+	quest.5FD39AF3B3BF9EF9.quest_subtitle: "\"The right tool for the right job.\""
+	quest.6ADAC8D1A8E1FBC6.quest_desc: ["Most mod-related keybinds have been unbound by default, so you won't have to worry about resolving conflicts. Some have remained, such as those open backpacks, maps, etc."]
+	quest.6ADAC8D1A8E1FBC6.quest_subtitle: "\"Simplicity over complexity.\""
+	quest.6D79F300DA527CBF.quest_desc: [
+		"&aInventory Tweaks - ReFoxed&r is included in the pack. It's a lightweight inventory sorter that works with the player's inventory as well as chests and a variety of other containers. "
+		""
+		"You can assign keybinds or click the relevant button in a given inventory."
+	]
+	quest.7C45F4B8BB34E931.quest_desc: [
+		"You may have noticed that &aAE2&r and many of it's addons are present in this pack."
+		""
+		"While Create-focused, I decided to include this mod as I figured there may be a handful of people who like building with Create, but can't be bothered with stock links, frogports, vaults, and the like."
+		""
+		"You're welcome to use the mod or not; that is the beauty of a sandbox pack such as this."
+	]
+	quest.7C45F4B8BB34E931.quest_subtitle: "\"Computing in the Steam Age.\""
+	task.058322227D7B6836.title: "FTB Ultimine"
+	task.05B9BF637DB2B232.title: "Inventory Tweaks"
+	task.0B97ADFDB9D95C25.title: "Useful Commands"
+	task.1007D6D25BD66429.title: "Gravestones"
+	task.14F35C00C7325528.title: "Welcome to CGOP!"
+	task.1C3D0994DC890DBC.title: "Keybinds"
+	task.1E0ADAF4753A39B5.title: "FTB Chunks"
+	task.42ED3FF4E1F3309A.title: "More Overlays"
+	task.4CAF940A6229EC81.title: "Applied Energistics?"
+	task.7F89CA5FA1974B6B.title: "Lootr"
+}

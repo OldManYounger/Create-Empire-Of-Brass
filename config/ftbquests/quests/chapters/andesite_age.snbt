@@ -1,0 +1,31 @@
+{
+	autofocus_id: "4E83502FF018B136"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "andesite_age"
+	group: "6249DED8BDC4CAD8"
+	icon: {
+		id: "create:andesite_casing"
+	}
+	id: "63A73D1B83052A0F"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			id: "minecraft:andesite"
+		}
+		id: "4E83502FF018B136"
+		rewards: [{
+			id: "3EF0E991CDF6D900"
+			type: "xp"
+			xp: 100
+		}]
+		tasks: [{
+			id: "4F53BF97DD559A9B"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

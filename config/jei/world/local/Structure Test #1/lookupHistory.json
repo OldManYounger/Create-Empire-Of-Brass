@@ -1,0 +1,7 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"minecraft:potion","components":"{\"minecraft:potion_contents\":{potion:\"apothic_attributes:levitation\"}}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:potion","components":"{\"minecraft:potion_contents\":{potion:\"apothic_attributes:flying\"}}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create_sa:brass_jetpack_chestplate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create_sa:steam_engine"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

@@ -1,0 +1,103 @@
+#Chunkster configuration schema version.
+#Do not change this value manually.
+# Default: 1
+# Range: > 1
+schemaVersion = 1
+
+#Bounded chunk-request concurrency and admission limits.
+[concurrency]
+	#Lowest concurrency target used by adaptive throttling.
+	#Chunkster will never intentionally operate below this value.
+	# Default: 1
+	# Range: 1 ~ 64
+	minimum = 1
+	#Concurrency target used when generation begins or resumes.
+	#This must be between minimum and maximumGlobal.
+	# Default: 2
+	# Range: 1 ~ 64
+	initial = 2
+	#Maximum outstanding Chunkster requests across all dimensions.
+	#High values can expand into much larger Minecraft chunk dependency graphs.
+	# Default: 8
+	# Range: 1 ~ 64
+	maximumGlobal = 8
+	#Maximum outstanding requests within one dimension.
+	#This must not exceed maximumGlobal.
+	# Default: 4
+	# Range: 1 ~ 64
+	maximumPerDimension = 4
+	#Maximum new requests admitted during one server tick.
+	#Keeping this low prevents bursts of work on the server thread.
+	# Default: 1
+	# Range: 1 ~ 64
+	admissionsPerTick = 1
+	#Retries permitted after an ordinary request failure.
+	#Unresolved timed-out requests are never retried automatically.
+	# Default: 1
+	# Range: 0 ~ 3
+	automaticFailureRetries = 1
+
+#MSPT thresholds and adaptive throttling durations.
+[pressure]
+	#MSPT below which sustained recovery may begin.
+	#This must be lower than softMspt.
+	# Default: 35.0
+	# Range: 1.0 ~ 1000.0
+	resumeMspt = 35.0
+	#MSPT at which Chunkster begins reducing concurrency.
+	#This must be between resumeMspt and hardMspt.
+	# Default: 40.0
+	# Range: 1.0 ~ 1000.0
+	softMspt = 40.0
+	#MSPT at which sustained pressure stops new admissions.
+	#Existing requests remain tracked and are not blindly abandoned.
+	# Default: 50.0
+	# Range: 1.0 ~ 1000.0
+	hardMspt = 50.0
+	#Observation period before adaptive concurrency may increase.
+	# Default: 30
+	# Range: 1 ~ 3600
+	warmupSeconds = 30
+	#Required healthy interval between concurrency increases.
+	# Default: 30
+	# Range: 1 ~ 3600
+	healthyRampIntervalSeconds = 30
+	#Time hard MSPT pressure must persist before admissions stop.
+	# Default: 5
+	# Range: 1 ~ 3600
+	hardPressureSustainSeconds = 5
+	#Time MSPT must remain healthy before admissions resume.
+	# Default: 15
+	# Range: 1 ~ 3600
+	healthyRecoverySeconds = 15
+
+#Request monitoring, reporting, and persistence intervals.
+[timing]
+	#Request age at which Chunkster logs a slow-request warning.
+	# Default: 30
+	# Range: 1 ~ 86400
+	slowRequestWarningSeconds = 30
+	#Request age at which Chunkster enters its fail-closed stalled state.
+	#This must exceed slowRequestWarningSeconds.
+	# Default: 120
+	# Range: 1 ~ 86400
+	stallThresholdSeconds = 120
+	#Interval between routine pregeneration progress reports.
+	# Default: 30
+	# Range: 1 ~ 3600
+	progressReportIntervalSeconds = 30
+	#Interval between periodic task-state checkpoints.
+	# Default: 20
+	# Range: 1 ~ 3600
+	persistenceIntervalSeconds = 20
+	#Resolved chunks between progress-based checkpoints.
+	#Timed checkpoints may still occur before this batch is reached.
+	# Default: 256
+	# Range: 1 ~ 1000000
+	persistenceBatchSize = 256
+
+#Diagnostic logging options.
+[logging]
+	#Log detailed per-chunk activity.
+	#Disabled by default to avoid excessive output during large tasks.
+	detailedChunkLogging = false

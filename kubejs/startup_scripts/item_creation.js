@@ -1,0 +1,21 @@
+// Creates basic KubeJS items for use in placeholder endgame recipes
+StartupEvents.registry('item', event => {
+    event.create('create_endgame_item_1')
+        .displayName('Create Endgame Item #1')
+        .texture('kubejs:item/example_item')
+    event.create('create_endgame_item_2')
+        .displayName('Create Endgame Item #2')
+        .texture('kubejs:item/example_item')
+    event.create('create_endgame_item_3')
+        .displayName('Create Endgame Item #3')
+        .texture('kubejs:item/example_item')
+    event.create('create_endgame_item_4')
+        .displayName('Create Endgame Item #4')
+        .texture('kubejs:item/example_item')
+    event.create('create_endgame_item_5')
+        .displayName('Create Endgame Item #5')
+        .texture('kubejs:item/example_item')
+    event.create('create_endgame_item_6')
+        .displayName('Create Endgame Item #6')
+        .texture('kubejs:item/example_item')
+});

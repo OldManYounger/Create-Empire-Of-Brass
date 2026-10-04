@@ -1,0 +1,179 @@
+{
+	autofocus_id: "0E54675B443B821A"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "introduction"
+	group: "52873A3F4F2C2F88"
+	id: "35D794C1E516A244"
+	images: [{
+		click_action: "none:"
+		height: 3.0d
+		id: "326F302C3AD07AF4"
+		image: "kubejs:textures/quests/create_gears_of_progress_title_1.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -2.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "create:brass_hand"
+			}
+			id: "0E54675B443B821A"
+			rewards: [{
+				id: "45AB7BFBA3AB53AA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "14F35C00C7325528"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0E54675B443B821A"]
+			icon: {
+				id: "ae2:meteorite_compass"
+			}
+			id: "7C45F4B8BB34E931"
+			rewards: [
+				{
+					id: "70800373F1B8825A"
+					item: {
+						count: 1
+						id: "minecraft:compass"
+					}
+					type: "item"
+				}
+				{
+					id: "6976F8F485FA3EDE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "4CAF940A6229EC81"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0E54675B443B821A"]
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:item/command_block_minecart"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5FD39AF3B3BF9EF9"
+			tasks: [{
+				id: "0B97ADFDB9D95C25"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0E54675B443B821A"]
+			icon: {
+				id: "create_things_and_misc:magnifying_glass"
+			}
+			icon_scale: 0.95d
+			id: "4DD4442AF8CD1863"
+			tasks: [{
+				id: "42ED3FF4E1F3309A"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0E54675B443B821A"]
+			icon: {
+				id: "minecraft:map"
+			}
+			id: "2B39CE2C5681EB66"
+			tasks: [{
+				id: "1E0ADAF4753A39B5"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0E54675B443B821A"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/sort_az"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 0.8d
+			id: "6D79F300DA527CBF"
+			tasks: [{
+				id: "05B9BF637DB2B232"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0E54675B443B821A"]
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "489786B315A615BC"
+			tasks: [{
+				id: "7F89CA5FA1974B6B"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0E54675B443B821A"]
+			icon: {
+				id: "supplementaries:key"
+			}
+			id: "6ADAC8D1A8E1FBC6"
+			tasks: [{
+				id: "1C3D0994DC890DBC"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0E54675B443B821A"]
+			icon: {
+				id: "mcwholidays:small_gravestone"
+			}
+			id: "1903C95BED13B444"
+			tasks: [{
+				id: "1007D6D25BD66429"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0E54675B443B821A"]
+			icon: {
+				id: "minecraft:netherite_pickaxe"
+			}
+			id: "4E94BE251BFF4348"
+			tasks: [{
+				id: "058322227D7B6836"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+	]
+}
