@@ -1,4 +1,4 @@
-# Amalgamations
+# Create Empire of Brass
 
 Create: Empire of Brass is a sandbox pack focused around Create and it's suite of addons. Eventually it will contain endgame quests and custom recipes, but for now it's a properly configured generalist pack.
 
